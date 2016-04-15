@@ -1,9 +1,7 @@
 /**
  * Created by wangcy on 2015/6/9.
  */
-require(["./src/pull-refresh"], function(refresh) {
-    console.log(refresh);
-
+require(["./src/pull-refresh.min"], function(refresh) {
     var refreshMethod = refresh();
     refreshMethod.on(function() {
         console.log("开始刷新动画", performance.now());
