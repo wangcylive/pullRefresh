@@ -4,7 +4,6 @@ pull refresh
 # instruction
 
 supported promised style
-
 supported AMD
 
 # v1
@@ -17,6 +16,7 @@ refresh.done(function() {
 
 # v2
 var refresh = window.pullRefresh();
+
 refresh.on(function() {
     // start function
 }).done(function() {
