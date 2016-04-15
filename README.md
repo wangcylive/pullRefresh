@@ -30,10 +30,10 @@ refresh.on(function() {
     // fail function
 })
 
-trigger fail
+// trigger fail
 
 refresh.reject();
 
-trigger done
+// trigger done
 
 refresh.resolve();
