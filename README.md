@@ -3,8 +3,8 @@ pull refresh
 
 ## instruction
 
-supported promised style
-supported AMD
+*supported promised style*
+*supported AMD*
 
 ### v1 version
     var refresh = window.pullRefresh();
@@ -25,8 +25,8 @@ supported AMD
         // fail function
     })
 
-    *// trigger fail*
+    // trigger fail
     refresh.reject();
 
-    *// trigger done*
+    // trigger done
     refresh.resolve();
