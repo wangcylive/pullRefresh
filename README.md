@@ -4,12 +4,14 @@ pull refresh
 # instruction
 
 supported promised style
+
 supported AMD
 
 # v1
 var refresh = window.pullRefresh();
 
 refresh.done(function() {
+
     // done function
 });
 
@@ -18,15 +20,20 @@ refresh.done(function() {
 var refresh = window.pullRefresh();
 
 refresh.on(function() {
+
     // start function
 }).done(function() {
+
     // done function
 }).fail(function() {
+
     // fail function
 })
 
 trigger fail
+
 refresh.reject();
 
 trigger done
+
 refresh.resolve();
